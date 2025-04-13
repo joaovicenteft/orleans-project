@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lG/za1lglKY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\OrleansDemo.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.7.2\\microsoft.orleans.codegenerator.msbuild.3.7.2.nupkg.sha512",
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}

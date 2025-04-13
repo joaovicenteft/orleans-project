@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "x4yG+PbodnY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\orleans-projeect\\orleans-projeect.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.11\\microsoft.dotnet.ilcompiler.8.0.11.nupkg.sha512",
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.11\\microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512",
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\joaob\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.11\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.11.nupkg.sha512",
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\joaob\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

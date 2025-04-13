@@ -1,0 +1,240 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Silo\\OrleansDemo.Silo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\OrleansDemo.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\OrleansDemo.Abstractions.csproj",
+        "projectName": "OrleansDemo.Abstractions",
+        "projectPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\OrleansDemo.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\joaob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joaob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.100, 9.0.100]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Grains\\OrleansDemo.Grains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Grains\\OrleansDemo.Grains.csproj",
+        "projectName": "OrleansDemo.Grains",
+        "projectPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Grains\\OrleansDemo.Grains.csproj",
+        "packagesPath": "C:\\Users\\joaob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Grains\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joaob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\OrleansDemo.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\OrleansDemo.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.100, 9.0.100]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Silo\\OrleansDemo.Silo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Silo\\OrleansDemo.Silo.csproj",
+        "projectName": "OrleansDemo.Silo",
+        "projectPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Silo\\OrleansDemo.Silo.csproj",
+        "packagesPath": "C:\\Users\\joaob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Silo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joaob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\OrleansDemo.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Abstractions\\OrleansDemo.Abstractions.csproj"
+              },
+              "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Grains\\OrleansDemo.Grains.csproj": {
+                "projectPath": "C:\\Users\\joaob\\source\\repos\\orleans-project\\OrleansDemo.Grains\\OrleansDemo.Grains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.100, 9.0.100]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

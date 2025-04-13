@@ -1,0 +1,11 @@
+@orleans_projeect_HostAddress = http://localhost:5257
+
+GET {{orleans_projeect_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{orleans_projeect_HostAddress}}/todos/1
+Accept: application/json
+
+###
